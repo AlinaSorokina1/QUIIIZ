@@ -1,0 +1,86 @@
+body {
+background-image: url('https://bogatyr.club/uploads/posts/2021-11/thumbs/1636920716_24-bogatyr-club-p-fon-dlya-prilozheniya-24.jpg');
+background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.H {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: #FFF;
+}
+
+.quiz {
+    position: relative;
+    transition: transform 0.3s;
+}
+
+.quiz:hover {
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.quiz:active {
+    transition: 0.03s;
+    transform: scale(0.95);
+    box-shadow: 5px 5px 5px 5px #000;
+    border-radius: 20px;
+  }
+
+.quiz_1 img, .quiz_2 img {
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-around;
+
+    position: absolute;
+    top: -45px;
+    left: 50px;
+
+    color: #FFF;
+    font-size: 50px;
+    /* border: 3px solid #000;
+    border-radius: 15px; */
+    /* background: red; */
+    text-shadow: 3px 3px 2px #000000;
+}
+
+
+.paragraph:hover {
+    transition: 0.6s;
+    transform: scale(2.1);
+}
+
+.paragraph:active {
+    transition: 0.03s;
+    transform: scale(0.95);
+    box-shadow: 5px 5px 5px 5px #000;
+    border-radius: 20px;
+  }
+
+  footer {
+    color: #FFF;
+    margin-top: 500px;
+    background-color: #000;
+    align-items: center;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+  }
