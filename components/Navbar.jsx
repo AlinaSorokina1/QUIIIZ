@@ -8,7 +8,7 @@ function Navbar({}) {
           <a href=''>Main</a>
         </li>
         <li>
-          <a href=''>Sign-in</a>
+          <a href=''>Sign-up</a>
         </li>
       </ul>
     </nav>
