@@ -1,4 +1,5 @@
 const React = require('react');
+const Navbar = require('./Navbar');
 
 function Layout({ title, children }) {
   return (
@@ -8,10 +9,13 @@ function Layout({ title, children }) {
         <link rel="stylesheet" href="/styles/index.css" />
       </head>
       <body>{children}</body>
-
       <footer>
         <span>🍕 Pizza Day АуФ!</span>
       </footer>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

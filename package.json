@@ -8,7 +8,6 @@
     "dev": "nodemon app.js --ext js,jsx,json",
     "dbr": "npx sequelize db:migrate:undo:all && npx sequelize db:migrate && npx sequelize db:seed:all"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -28,6 +27,7 @@
     "@babel/register": "^7.23.7",
     "express": "^4.18.2",
     "morgan": "^1.10.0",
+    "mysql2": "^3.9.1",
     "pg": "^8.11.3",
     "pg-hstore": "^2.3.4",
     "react": "^18.2.0",
