@@ -10,7 +10,7 @@ function Navbar({}) {
         <a href="/registration">Sign-up</a>
       </div>
 
-      <div className="score">Score: 123</div>
+      <div className="score">Score: 0</div>
     </nav>
 
   );
