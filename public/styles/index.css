@@ -37,7 +37,7 @@ margin: 0;
     border-radius: 20px;
   }
 
-.quiz_1 img, .quiz_2 img {
+.quiz img {
     width: 500px;
     height: 300px;
     border-radius: 15px;
