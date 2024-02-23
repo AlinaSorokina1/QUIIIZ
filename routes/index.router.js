@@ -2,7 +2,7 @@ const router = require('express').Router();
 
 // views
 const mainRouter = require('./views/main.view.router');
-
+const errRouter = require('./views/incorrect.router')
 // api
 
 // route views
@@ -17,9 +17,6 @@ const questionViewRouter = require('./views/question.view.router');
 router.use('/api', authApiRouter);
 router.use('/registration', authViewRouter);
 
-router.use('/auth', authApiRouter);
-router.use('/auth', authViewRouter);
-
 router.use('/question', questionViewRouter);
-
+router.use('*', errRouter);
 module.exports = router;
