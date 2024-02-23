@@ -5,10 +5,10 @@ function Navbar({}) {
     <nav>
       <ul>
         <li>
-          <a href=''>Main</a>
+          <a href='/'>Main</a>
         </li>
         <li>
-          <a href=''>Sign-up</a>
+          <a href='/registration'>Sign-up</a>
         </li>
       </ul>
     </nav>
