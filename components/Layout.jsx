@@ -6,7 +6,8 @@ function Layout({ title, children }) {
     <html lang='en'>
       <head>
         <title>{title}</title>
-        <link rel="stylesheet" href="/styles/index.css" />
+        <script defer src='/scripts/question.js' />
+        <link rel='stylesheet' href='/styles/index.css' />
         <link rel='stylesheet' href='/styles/registration.css' />
       </head>
       <footer>

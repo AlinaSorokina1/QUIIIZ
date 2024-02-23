@@ -28,11 +28,13 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.get('/:id/:questionId', async (req, res) => {
+router.get('/:id/:question_id', async (req, res) => {
   try {
     const { id } = req.params;
-    const { questionId } = req.params;
-    const quest = await Question.findOne({ where: { category_id: id, id: questionId } });
+    const { question_id } = req.params;
+    const quest = await Question.findOne({
+      where: { category_id: id, id: question_id },
+    });
     const document = res.renderComponent(QuestionPage, { quest });
     res.send(document);
   } catch ({ message }) {
