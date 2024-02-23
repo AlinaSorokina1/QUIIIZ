@@ -4,7 +4,7 @@ module.exports = {
     await queryInterface.bulkInsert('Questions', [
       {
         img: 'https://cs12.pikabu.ru/post_img/2021/12/28/2/1640656453150894986.jpg',
-        textQuestion: 'Сколько будет стоить обучение в Московском кампусе после поднятия цен (через 2 недели)?',
+        textQuestion: 'Сколько стоит обучение на FS JS в Московском кампусе?',
         answer: '345000',
         category_id: 1,
         createdAt: new Date(),
@@ -28,7 +28,8 @@ module.exports = {
       },
       {
         img: 'https://cs12.pikabu.ru/post_img/2020/01/04/8/1578140447188383575.jpg',
-        textQuestion: 'Какой протокол обмена данными представлен на фото (HTTP / HTTPS)?',
+        textQuestion:
+          'Какой протокол обмена данными представлен на фото (HTTP / HTTPS)?',
         answer: 'HTTPS',
         category_id: 1,
         createdAt: new Date(),
@@ -36,7 +37,8 @@ module.exports = {
       },
       {
         img: 'https://th.bing.com/th/id/OIG3.sYOCET1JKB1TKAvZWnii?pid=ImgGn',
-        textQuestion: 'Сколько нужно выпускников Эльбруса, чтобы уронить один сервер?',
+        textQuestion:
+          'Сколько нужно выпускников Эльбруса, чтобы уронить один сервер?',
         answer: 'Эльбрусовцы сервер не роняют',
         category_id: 1,
         createdAt: new Date(),
