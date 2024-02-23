@@ -1,9 +1,13 @@
 body {
 background-image: url('https://bogatyr.club/uploads/posts/2021-11/thumbs/1636920716_24-bogatyr-club-p-fon-dlya-prilozheniya-24.jpg');
 background-size: cover;
+
+background-repeat: no-repeat;
+
 margin: 0;
   padding: 0;
   overflow: hidden
+
 }
 
 .container {
@@ -62,7 +66,7 @@ margin: 0;
 
 .paragraph:hover {
     transition: 0.6s;
-    transform: scale(2.1);
+    transform: scale(1.6);
 }
 
 .paragraph:active {

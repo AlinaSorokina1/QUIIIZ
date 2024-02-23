@@ -14,7 +14,6 @@ function MainPage({ title, categories }) {
           </div>
         ))}
       </div>
-
     </Layout>
   );
 }
