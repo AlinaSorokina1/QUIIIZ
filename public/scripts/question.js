@@ -1,4 +1,5 @@
 const formAnswer = document.querySelector('.formAnswer');
+
 console.log(123);
 
 if (formAnswer) {
@@ -27,5 +28,6 @@ if (formAnswer) {
         '.answer'
       ).innerHTML = `Неправильно. Верный ответ: ${data.rightAnswer.answer}`;
     }
+
   });
 }
