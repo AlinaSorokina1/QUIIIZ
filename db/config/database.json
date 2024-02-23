@@ -1,7 +1,11 @@
 {
   "development": {
     "username": "postgres",
+<<<<<<< HEAD
     "password": "1234",
+=======
+    "password": "123",
+>>>>>>> 2fae0733178abc1e440d0686dff7ad2bf0bfa4df
     "database": "Quiz",
     "host": "127.0.0.1",
     "dialect": "postgres"
