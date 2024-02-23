@@ -8,7 +8,6 @@ function Layout({ title, children }) {
         <title>{title}</title>
         <link rel="stylesheet" href="/styles/index.css" />
       </head>
-      <body>{children}</body>
       <footer>
         <span>🍕 Pizza Day АуФ!</span>
       </footer>
