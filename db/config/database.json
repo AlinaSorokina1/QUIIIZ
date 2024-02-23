@@ -3,7 +3,7 @@
     "username": "postgres",
 
 
-    "password": "postgres",
+    "password": "1234",
 
     "database": "Quiz",
     "host": "127.0.0.1",
