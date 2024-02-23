@@ -2,16 +2,17 @@ const React = require('react');
 
 function Navbar({}) {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href='/'>Main</a>
-        </li>
-        <li>
-          <a href='/registration'>Sign-up</a>
-        </li>
-      </ul>
+    <nav className="navBar">
+      <div className="nav nav_1">
+        <a href="">Main</a>
+      </div>
+      <div className="nav nav_2">
+        <a href="">Sign-up</a>
+      </div>
+
+      <div className="score">Score: 123</div>
     </nav>
+
   );
 }
 
