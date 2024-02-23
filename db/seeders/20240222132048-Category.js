@@ -3,14 +3,14 @@ module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.bulkInsert('Categories', [
       {
-        name: 'topicFirst',
-        img: 'https://img.joinfo.com/i/2021/11/800x0/618678d7ee2ff.jpg',
+        name: 'Около IT...',
+        img: 'https://i.ytimg.com/vi/CKRJZeD_aqE/maxresdefault.jpg',
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        name: 'topicSecond',
-        img: 'https://www.film.ru/sites/default/files/images/Home-007.jpg',
+        name: 'Фильмы',
+        img: 'https://avatars.dzeninfra.ru/get-zen_doc/1567788/pub_5e22ec7a3d5f6900b0ad57be_5e22ec7b92414d00b16b59c2/scale_1200',
         createdAt: new Date(),
         updatedAt: new Date(),
       },

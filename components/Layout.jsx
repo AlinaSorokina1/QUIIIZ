@@ -9,6 +9,7 @@ function Layout({ title, children }) {
         <script defer src='/scripts/question.js' />
         <link rel='stylesheet' href='/styles/index.css' />
         <link rel='stylesheet' href='/styles/registration.css' />
+        {/* <script defer src='/scripts/some.js' /> */}
       </head>
       <footer>
         <span>🍕 Pizza Day АуФ!</span>
